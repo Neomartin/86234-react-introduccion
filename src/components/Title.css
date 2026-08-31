@@ -6,6 +6,18 @@
   margin: 16px;
   position: relative;
 
+  &.titulo-danger {
+    box-shadow: 0 0 10px 10px crimson;
+  }
+
+  &.titulo-success {
+    box-shadow: 0 0 10px 10px limegreen;
+  }
+
+  &.titulo-info {
+    box-shadow: 0 0 10px 10px dodgerblue;
+  }
+
   .title {
     color: white;
     font-size: 24px;
@@ -15,6 +27,8 @@
   .subtitle {
     font-style: italic;
     color: lightgray;
+    padding: 1rem;
+    background-color: crimson;
   }
 
   .title-image {
