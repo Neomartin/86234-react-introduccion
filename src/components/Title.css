@@ -7,15 +7,15 @@
   position: relative;
 
   &.titulo-danger {
-    box-shadow: 0 0 10px 10px crimson;
+    box-shadow: 0 0 3px 3px crimson;
   }
 
   &.titulo-success {
-    box-shadow: 0 0 10px 10px limegreen;
+    box-shadow: 0 0 3px 3px limegreen;
   }
 
   &.titulo-info {
-    box-shadow: 0 0 10px 10px dodgerblue;
+    box-shadow: 0 0 3px 3px dodgerblue;
   }
 
   .title {
